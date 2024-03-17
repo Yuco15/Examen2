@@ -89,9 +89,13 @@ img {
   margin-left: 40px;
 }
 .bola {
-  width: 1px;
-  height: 1px;
+  empty-cells: hide;
+  border: none;
+}
+.bola div {
+  width: 20px;
+  height: 20px;
   background-color: white;
   border-radius: 50%;
-  empty-cells: show;
+  border: 1px rgb(107, 107, 107) solid;
 }
